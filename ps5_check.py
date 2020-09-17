@@ -21,7 +21,7 @@ mail_content = "email body"  # < ENTER EMAIL BODY TEXT HERE >
 message = MIMEMultipart()
 message['From'] = sender_address
 message['To'] = recipient_address
-message['Subject'] = "PS5 Available on Amazon"
+message['Subject'] = "Amazon PS5 Page Up"
 message.attach(MIMEText(mail_content, 'plain'))
 
 # email scraping loop
